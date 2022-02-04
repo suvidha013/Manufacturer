@@ -3,8 +3,9 @@ package com.example.demo.repository;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.entity.Product;
+import com.example.demo.entity.Component;
 
 @Repository
-public interface ProductRepository extends CrudRepository<Product, Integer> {
+public interface ComponentRepository extends CrudRepository<Component, Integer> {
+
 }
